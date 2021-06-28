@@ -1,0 +1,98 @@
+.background{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: yellow;
+  }
+
+  .wrapper{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top:  -200px;
+  }
+
+  .SNScard{
+    float: left;
+    width: 300px;
+    height: 400px;
+    position: relative;
+
+    box-shadow: 1px 1px 10px rgb(14, 13, 13);
+  }
+
+  .SNScard img{
+    width: 300px;
+    height: 400px;
+  }
+  
+  .SNScard .screen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .SNScard .screen .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+
+  .SNScard .screen .overlay .gear{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    background: white;
+
+    transition: height .3s;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  .SNScard .screen:hover .gear{
+    height: 150px;
+  }
+
+  .SNScard .screen .overlay .title{
+    margin: 10px;
+    color: white;
+  }
+
+  .SNScard .screen .overlay .tag{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .SNScard .screen .overlay .gear .buttons i{
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  .SNScard .screen .overlay .gear .buttons i{
+    margin-left: 5px;
+  }
+
+  .SNScard .screen .overlay .gear .buttons #heart{
+    color: red;
+  }
+
+  .SNScard .screen .overlay .gear .content{
+    margin: 10px;
+    line-height: 21px;
+  }
+  .SNScard .screen .overlay .gear .content p{
+    margin: 0;
+  }
+  .SNScard .screen .overlay .date{
+    position: absolute;
+    right: 10px;
+  }
